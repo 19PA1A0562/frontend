@@ -1,0 +1,15 @@
+<div class="container">
+    <form  class="form" [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <span><label for="name">Name </label>
+                <input type="text" id="name" placeholder="Enter the Username" required><br><br>
+            </span>
+            <span><label for="psd">password</label>
+                <input type="text" id="password" placeholder="Enter the password" required><br><br>
+            </span>
+            <span><label for="phonenumber">Phone number</label>
+                <input type="text" id="phonenumber" placeholder="Enter the phonenumber" required></span><br><br>
+            <input type="submit" value="submit">
+        </div>
+    </form>
+</div>
